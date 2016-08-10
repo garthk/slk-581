@@ -12,7 +12,7 @@ lab.experiment('slk-581', function () {
             sex: 2,
         });
         expect(indicator).to.be.a.string();
-        expect(indicator).to.equal('ITZAN190001012UUU')
+        expect(indicator).to.equal('ITZAN010119002UUU')
         done();
     });
 });

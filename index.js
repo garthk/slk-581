@@ -33,9 +33,9 @@ function makeIndicator(inputs) {
     parts.push(indicateFamilyName(inputs.familyName));
     parts.push(indicateGivenName(inputs.givenName));
 
-    parts.push(indicateDatePart(born.year, UNKNOWN_DATE.year, 4));
-    parts.push(indicateDatePart(born.month, UNKNOWN_DATE.month, 2));
     parts.push(indicateDatePart(born.day, UNKNOWN_DATE.day, 2));
+    parts.push(indicateDatePart(born.month, UNKNOWN_DATE.month, 2));
+    parts.push(indicateDatePart(born.year, UNKNOWN_DATE.year, 4));
 
     parts.push(indicateSex(inputs.sex));
 

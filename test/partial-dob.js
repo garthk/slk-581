@@ -15,7 +15,7 @@ lab.experiment('slk-581', function () {
             sex: 2,
         });
         expect(indicator).to.be.a.string();
-        expect(indicator.slice(5, 13)).to.equal('19700101');
+        expect(indicator.slice(5, 13)).to.equal('01011970');
         expect(indicator.slice(14, 18)).to.equal('AUU');
         done();
     });

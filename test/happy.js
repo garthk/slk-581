@@ -10,14 +10,14 @@ lab.experiment('slk-581', function () {
             givenName: 'Jane',
             familyName: 'Citizen',
             born: {
-                year: 1970, // bloody Gen-Xer
+                year: 1973, // bloody Gen-Xer
                 month: 2,
-                day: 2,
+                day: 1,
             },
             sex: 2,
         });
         expect(indicator).to.be.a.string();
-        expect(indicator).to.equal('ITZAN197002022AAA')
+        expect(indicator).to.equal('ITZAN010219732AAA')
         done();
     });
 });
