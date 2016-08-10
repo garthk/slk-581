@@ -21,7 +21,7 @@ var indicator = makeIndicator({
     },
     sex: 2, // 1: male; 2: female; 3: intersex/indeterminate; 9: unknown
 });
-console.log(indicator); // -> ITZAN197002012AEU
+console.log(indicator); // -> ITZAN010219702UEA
 ```
 
 References:

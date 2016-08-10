@@ -39,9 +39,9 @@ function makeIndicator(inputs) {
 
     parts.push(indicateSex(inputs.sex));
 
-    parts.push(indicateDateAccuracyPart(born.year, accuracy.year));
-    parts.push(indicateDateAccuracyPart(born.month, accuracy.month));
     parts.push(indicateDateAccuracyPart(born.day, accuracy.day));
+    parts.push(indicateDateAccuracyPart(born.month, accuracy.month));
+    parts.push(indicateDateAccuracyPart(born.year, accuracy.year));
 
     return parts.join('');
 }
