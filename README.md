@@ -2,6 +2,8 @@
 
 Makes SLK-581 indicators, recently popular because of the Australian Census.
 
+[![Build Status](https://travis-ci.org/garthk/slk-581.svg?branch=travisify)](https://travis-ci.org/garthk/slk-581)
+
 ```js
 var makeIndicator = require('slk-581').makeIndicator;
 var indicator = makeIndicator({
