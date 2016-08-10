@@ -2,6 +2,8 @@
 
 Makes SLK-581 indicators, recently popular because of the Australian Census.
 
+[![NPM](https://nodei.co/npm/slk-581.png)](https://npmjs.org/package/slk-581.png)
+
 [![Build Status](https://travis-ci.org/garthk/slk-581.svg?branch=travisify)](https://travis-ci.org/garthk/slk-581)
 
 ```js
